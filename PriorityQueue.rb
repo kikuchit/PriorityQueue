@@ -71,9 +71,5 @@ class PriorityQueue
 	def first
 		@heap.first
 	end
-
-	def print
-		puts @heap.join(' ')
-	end
 end
 
